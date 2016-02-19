@@ -56,6 +56,7 @@
 #define PCI_CLASS_MEMORY_OTHER           0x0580
 
 #define PCI_BASE_CLASS_BRIDGE            0x06
+#define PCI_CLASS_SERIAL_1394            0x0c00
 #define PCI_CLASS_BRIDGE_HOST            0x0600
 #define PCI_CLASS_BRIDGE_ISA             0x0601
 #define PCI_CLASS_BRIDGE_EISA            0x0602
@@ -254,6 +255,8 @@
 #define PCI_DEVICE_ID_INTEL_82599_SFP_VF 0x10ed
 
 #define PCI_DEVICE_ID_INTEL_Q35_MCH      0x29c0
+
+#define PCI_DEVICE_ID_INTEL_1394_OHCI    0x7605
 
 #define PCI_VENDOR_ID_XEN                0x5853
 #define PCI_DEVICE_ID_XEN_PLATFORM       0x0001
